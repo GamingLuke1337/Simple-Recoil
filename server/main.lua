@@ -1,13 +1,15 @@
 if Config.Updater then
-    PerformHttpRequest("https://raw.githubusercontent.com/respectdevelopment/versions/main/Recoil", function(err, Version, headers)
-
+    PerformHttpRequest("https://raw.githubusercontent.com/GamingLuke1337/Simple-Recoil/main/fxmanifest.lua", function(err, responseText, headers)
+        
         local ScriptVersion = GetResourceMetadata(GetCurrentResourceName(), "version")
-    
-        if ScriptVersion == Version then
-            print("^2[INFO] rd_FractionVehicleShop have latest version!")
+        
+        local GitHubVersion = string.match(responseText, "version%s+'(%d+%.%d+%.%d+)'")
+        
+        if ScriptVersion == GitHubVersion then
+            print("^2[INFO] Simple-Recoil is up-to-date!")
         else
-            print("^3[UPDATE] Update for rd_Recoil is avaible! ("..ScriptVersion.. " -> " ..Version.. ")")
-            print("^3[UPDATE] https://github.com/respectdevelopment/rd_recoil")
+            print("^3[UPDATE] Update available for Simple-Recoil! ("..ScriptVersion.." -> "..GitHubVersion..")")
+            print("^3[UPDATE] https://github.com/GamingLuke1337/Simple-Recoil")
         end
     end)
 end
