@@ -1,35 +1,23 @@
-<br clear="both">
+# Recoil
 
-<h1 align="center">Recoil</h1>
+*Standalone recoil script for your server!*
 
-<p align="center">Standlone recoil script for your server!</p>
+</div>
 
+---
 
-###
+### Features
 
-<br clear="both">
+- Drunk Recoil
+- Classic Recoil
+- Custom Damage
+- Hide Crosshair
+- Disable Headshot Damage
+- Remove Pistol Whipping
 
-<h1 align="center">Features</h1>
+---
 
-###
+### Copyright Notice
 
-<p align="center">Drunk Recoil<br>Classic Recoil<br>Custom Damaga<br>Hide CrossHair<br>Disable HeadShots Damage<br>Remove Pistol Whipping</p>
-
-###
-
-<h1 align="center">Copyright</h1>
-
-<p align="center">Drunk recoil script is not ours, we only edited It for better optimalization and added new features. Original author is unknown, so if this is your code, please, contant us on the discord, thank you!</p>
-
-
-###
-
-<br clear="both">
-
-<h1 align="center">Support</h1>
-
-###
-
-<p align="center">https://discord.respectdevelopment.eu</p>
-
-###
+This script includes a "drunk recoil" feature that was not originally created by me
+I have optimized it and added new features for better functionality.If this is your work, please reach out to [us](https://discord.respectdevelopment.eu) and gamingluke1337 on discord to receive proper credit. Thank you!
