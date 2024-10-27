@@ -1,30 +1,21 @@
--- {{FX Information}} --
 fx_version 'cerulean'
 game 'gta5'
 
--- {{Resource Information}} --
-author 'Respect Development'
-description 'Recoil Script'
-version '2.0'
+author 'Respect Development & Gamingluke1337'
+description 'a simple Recoil Script for FiveM'
+version '2.0.1'
 
--- {{Manifest}} --
 lua54 'yes'
 
 shared_scripts {
-
-    'Config.lua'
-
+    'Config.lua',
 }
 
 client_scripts {
-
-    'Client/Client.lua',
-
+    'client/main.lua',
 }
 
 server_scripts {
-
-    'Server/Server.lua',
-
+    'server/main.lua',
 }
 
